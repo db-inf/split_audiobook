@@ -35,7 +35,7 @@
 	  --write-chapters      instead of spliting file, it just writes chapters into
 		                    original_file.chapters csv file (default: False)
 	  -o, --split-only      do not transcode, just split to parts using same audio
-		                    codec (default: False)
+		                    codec [ffmpeg -acodec copy] (default: False)
 	  --ignore-chapters     ignores chapters metadata, if they are pressent
 		                    (default: False)
 	  --remove              remove existing directory of splitted files (default:
